@@ -1,0 +1,113 @@
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+#dots {
+    width: 49px ;
+
+}
+#dots2 {
+  width: 40px ;
+}
+.header {
+  float: right;
+  display: flex;
+  align-items: center;
+
+}
+.header a{
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+.header img{
+  padding: 5px;
+}
+.Google {
+  display: flex;
+  align-items: center;
+
+}
+.img{
+  margin-top: 80px;
+  padding-left: 70%;
+}
+.lupa{
+  width: 15px ;
+}
+.micro{
+  width: 15px;
+}
+.centrar{
+  align-items: center;
+  display: block;
+  
+}
+.input{
+  padding: -36px 0 0;
+}
+.button {
+    width: 250px;
+    margin-bottom: 30px;
+    background-color: #F8F9FA;
+    border: 4px;
+    height: 26px;
+    width: 167px;
+    margin: 11px 4px;
+    padding: 0 16px;
+
+}
+
+.button:hover{
+   cursor:pointer;
+   
+}
+p{
+    width: 100%;
+    margin: 0px 10px 80px;
+
+}
+/* Footer */
+
+.footer {
+    margin-top: 24px;
+  
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+  }
+  
+  .mexico:not(:first-child) {
+    border-top: 1px solid #e4e4e4;
+  }
+  
+  .ubicacion {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 10px 12px;
+  }
+  .links{
+    display: flex;
+    align-items: center;
+
+  }
+  .links .linksizq {
+    display: flex;
+    align-items: center;
+    float: left;
+    text-align: left;
+    
+  }
+  .links .linksder {
+    display: flex;
+    float: right;
+    text-align: right;
+    padding-left: 50px;
+  }
+  .links a{
+    padding: 5px;
+    font-size: 10px
+    
+  }
